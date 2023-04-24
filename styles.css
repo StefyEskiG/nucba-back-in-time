@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(231, 164, 186);
+    padding: 1rem;
+}
+
+.nav__bar{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav__item a{
+    color: rgb(32, 104, 104);
+    text-decoration: none;
+
+}
+
