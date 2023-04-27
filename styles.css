@@ -30,9 +30,7 @@
 
 }
 
-.logo{
-    
-}
+
 
 main{
 background-image: linear-gradient(to right, #FFAFBD, #ffc3a0);
@@ -119,5 +117,27 @@ width: 100%;
 
 .portada-imagen-img{
     border-radius: 5px;
+    
+}
+
+.introduccion-div{
+background-image: linear-gradient(to right, #EECDA3, #EF629F);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduccion-div p{
+    font-size: 20px;
+    width: 70%;
+    color: #2e2e2e;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: justify;
     
 }
