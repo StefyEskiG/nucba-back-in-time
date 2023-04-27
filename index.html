@@ -4,13 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@300;500;700&display=swap");
+    </style>
     <title>Landing Page</title>
   </head>
   <body>
     <header>
       <nav class="nav">
-        <img src="images/logo.png" alt="logo" class="logo" />
+        <img src="images/logo.png" alt="logo" class="logo" height="100px" />
         <ul class="nav__bar">
           <li class="nav__item"><a href="#">Home</a></li>
           <li class="nav__item"><a href="#">Servicios</a></li>
@@ -19,5 +28,32 @@
         </ul>
       </nav>
     </header>
+
+    <main>
+      <section id="portada">
+        <div class="portada-text">
+          <div class="portada-info">
+            <h1>¡Lo vintage está de moda!</h1>
+            <p>
+              ¿Querés devolverle la vida a esos muebles de la abuela que te
+              parecen que ocultan algo lindo? ¿Querés decorar tu casa con un
+              estilo antiguo? Back in Time abre sus puertas. Descubrí todos los
+              servicios que tenemos para vos.
+            </p>
+          </div>
+          <div class="portada-botones">
+            <a href="#" class="link-presupuestos"> PRESUPUESTOS </a>
+            <a href="#" class="link-trabajos"> NUESTROS TRABAJOS </a>
+          </div>
+        </div>
+        <div class="portada-imagen">
+          <img
+            src="images/mueble.png"
+            alt="foto de mueble vintage"
+            class="portada-imagen-img"
+          />
+        </div>
+      </section>
+    </main>
   </body>
 </html>
